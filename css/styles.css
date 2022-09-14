@@ -56,12 +56,12 @@ h1 {
 }
 
 #features {
-  margin: 3.5rem auto;
+  padding: 5% 15%;
 }
 
 #features h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 #features p {
@@ -71,7 +71,7 @@ h1 {
 .f-icons {
   color: #f25e76;
   font-size: 3.5rem;
-  margin: 15px auto;
+  margin-bottom: 1rem;
 }
 .f-icons:hover {
   color: #fa3e5c;
