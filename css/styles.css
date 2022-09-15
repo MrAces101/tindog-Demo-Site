@@ -10,6 +10,12 @@ h1 {
   margin: 0 0;
 }
 
+ h2 {
+   font-family: 'Montserrat-black', sans-serif;
+   font-size: 2.5rem;
+   line-height: 1.5;
+   font-weight: bold;
+ }
 .download-btn {
   margin: 5% 3% 5% 0;
 }
@@ -69,10 +75,37 @@ h1 {
 }
 
 .f-icons {
-  color: #f25e76;
+  color: #ef8172;
   font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 .f-icons:hover {
   color: #fa3e5c;
+}
+
+/* Testimonial-section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 30px;
 }
