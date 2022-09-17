@@ -21,6 +21,7 @@ h1 {
    font-family: 'Montserrat-black', sans-serif;
    font-size: 1.2rem;
    font-weight: bold;
+   margin: 5px 0;
  }
 
 .download-btn {
@@ -69,7 +70,11 @@ h1 {
 }
 
 #features {
-  padding: 5% 15%;
+  padding: 5% 5%;
+}
+
+#features .row {
+  margin: 0;
 }
 
 #features h3 {
@@ -120,12 +125,24 @@ h1 {
   margin: 20px 20px 30px;
 }
 
-/* Pricing */
+/* Pricing Section */
 
 #pricing {
+  padding: 4% 0;
+}
 
+#pricing .row {
+  margin: 0;
 }
 
 .card {
   padding: 0;
+}
+
+.pricing-cards {
+  padding: 3% 2%;
+}
+
+.l-text {
+  color: #adacac;
 }
