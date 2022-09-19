@@ -176,13 +176,13 @@ font-size: 1.2rem;
   }
 
   #cta .big-heading {
-    font-size: 2.3;
+    font-size: 2rem;
   }
 }
 
 @media (min-width:1210px) {
     .big-heading {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
   }
 
   #testimonials .font-sm {
@@ -215,4 +215,8 @@ font-size: 1.2rem;
 }
 .cta-icon:hover {
   color: #ff4c68;
+}
+
+.cta-btn {
+  margin-top: 20px;
 }
