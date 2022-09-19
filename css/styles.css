@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 .font-sm {
   font-size: 1.5rem;
 }
@@ -27,14 +32,11 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 
-.white-section {
-
-}
+.white-section {}
 
 /* Title Section  */
-
 #title .container-fluid {
-  padding: 2% 15% 5%;
+  padding: 2% 15% 0;
   text-align: left;
   position: relative;
 }
@@ -49,7 +51,7 @@ h1, h2, h3, h4, h5 {
 
 .meet-new {
   display: block;
-  margin: 4% auto 0;
+  margin: 5% auto 0;
 }
 
 .download-btn {
@@ -57,7 +59,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 2rem;
 }
@@ -77,9 +78,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Features Section */
-
 #features {
-  padding: 5% 5%;
   background-color: #ffffff;
   position: relative;
   z-index: 2;
@@ -105,12 +104,12 @@ h1, h2, h3, h4, h5 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
 }
+
 .f-icons:hover {
   color: #fa3e5c;
 }
 
 /* Testimonial-section */
-
 #testimonials {
   position: relative;
 }
@@ -124,7 +123,6 @@ h1, h2, h3, h4, h5 {
 #press {
   background-color: #ff4c68;
   padding-bottom: 5%;
-
 }
 
 .press-logo {
@@ -133,11 +131,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Pricing Section */
-
-#pricing {
-  padding: 4% 0;
-}
-
 .card-text {
   font-size: 1rem;
 }
@@ -147,7 +140,12 @@ h1, h2, h3, h4, h5 {
 }
 
 #pricing h3 {
-font-size: 1.2rem;
+  font-size: 1.2rem;
+}
+
+#pricing p {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .card {
@@ -165,12 +163,9 @@ font-size: 1.2rem;
 @media (max-width: 992px) {
   .big-heading {
     font-size: 2.8rem;
-    text-align: center;
     margin-bottom: 15px;
   }
-  .meet-new {
-    text-align: center;
-  }
+
   .dog-img {
     position: static;
     transform: rotate(0);
@@ -180,24 +175,31 @@ font-size: 1.2rem;
   #cta .big-heading {
     font-size: 2rem;
   }
+
+  #pricing .big-heading {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width:1210px) {
-    .big-heading {
+  .big-heading {
     font-size: 3.5rem;
   }
 
   #cta .big-heading {
-  font-size: 3rem;
-}
+    font-size: 3rem;
+  }
 
   #testimonials .font-sm {
     font-size: 2.3rem;
   }
+
+  #pricing .big-heading {
+    font-size: 3rem;
+  }
 }
 
 /* CTA Section */
-
 #cta {
   padding: 3% 0;
 }
@@ -207,7 +209,6 @@ font-size: 1.2rem;
 }
 
 /* Footer Section */
-
 #footer {
   padding: 3% 15%;
   background-color: #fff;
@@ -216,10 +217,11 @@ font-size: 1.2rem;
 .cta-icon {
   margin: 20px 10px;
 }
+
 .cta-icon:hover {
   color: #ff4c68;
 }
 
 .cta-btn {
-  margin-top: 20px;
+  margin: 20px 15px 0 0;
 }
