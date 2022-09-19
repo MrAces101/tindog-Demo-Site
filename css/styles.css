@@ -8,18 +8,24 @@ h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.big-heading {
-  font-weight: 900;
-  font-size: 2.4rem;
-  margin: 0 0;
+.font-sm {
+  font-size: 1.5rem;
 }
 
-.download-btn {
-  margin: 5% 3% 5% 0;
+.big-heading {
+  font-weight: 900;
+  font-size: 2.3rem;
+  margin: 0 0;
 }
 
 .container-fluid {
   padding: 5% 15%;
+}
+
+/* Title Section  */
+
+#title .container-fluid {
+  padding: 2% 15% 5%;
 }
 
 #title {
@@ -42,7 +48,12 @@ h1, h2, h3, h4, h5 {
   margin: 4% auto 0;
 }
 
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
 /* Navigation Bar */
+
 .navbar {
   padding: 0 0 2rem;
 }
@@ -58,7 +69,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-link {
-  font-size: 1.5rem;
   font-weight: 200;
 }
 
@@ -76,19 +86,16 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
-#features h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
 #features p {
   color: #8f8f8f;
 }
 
 .feature-title {
   font-size: 1.5rem;
+  font-weight: 600;
   margin: 5px 0;
 }
+
 .f-icons {
   color: #ff4c68;
   font-size: 3.5rem;
@@ -112,11 +119,6 @@ h1, h2, h3, h4, h5 {
   margin: 20px;
 }
 
-.testimonial-text {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
 #press {
   background-color: #ff4c68;
   padding-bottom: 5%;
@@ -134,16 +136,16 @@ h1, h2, h3, h4, h5 {
   padding: 4% 0;
 }
 
-.card-title {
-  font-size: 1.5rem;
-}
-
 .card-text {
   font-size: 1rem;
 }
 
 #pricing .row {
   margin: 0;
+}
+
+#pricing h3 {
+font-size: 1.2rem;
 }
 
 .card {
@@ -160,7 +162,7 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width: 992px) {
   .big-heading {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
     margin-bottom: 15px;
   }
@@ -170,14 +172,21 @@ h1, h2, h3, h4, h5 {
   .dog-img {
     position: static;
     transform: rotate(0);
-      margin-bottom: 180px;
+    margin-bottom: 180px;
+  }
+
+  #cta .big-heading {
+    font-size: 2.3;
   }
 }
 
-@media (min-width:1210px) {\
-  .big-heading {
-    font-size: 3.3rem;
-    font-size: 3rem;
+@media (min-width:1210px) {
+    .big-heading {
+    font-size: 3.5rem;
+  }
+
+  #testimonials .font-sm {
+    font-size: 2.3rem;
   }
 }
 
