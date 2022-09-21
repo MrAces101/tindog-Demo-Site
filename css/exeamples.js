@@ -1,11 +1,11 @@
-Prompts user to enter name then returns welcome message
+// Prompts user to enter name then returns welcome message
 
 var message = "Hello ";
 var name = prompt(" Enter your name");
 alert(message + name + " ,welcome to the Day One Club!")
 
 
-Prompts user to enter message then returns characters typed vs remaining.
+// Prompts user to enter message then returns characters typed vs remaining.
 
 var tCount = 140;
 var count = prompt("Type your tweet below");
@@ -170,3 +170,27 @@ n = Math.floor(n) + 1;
 
 //  Return the values to the console
 console.log(n);
+
+--------------------------------------------------------------
+
+// Create a Soulmate calculator
+
+// Prompts user to enter the name of the first person
+var name1 = prompt("Enter the first name");
+
+// Prompts user to enter the name of the second perso
+var name2 = prompt("Enter the second name");
+
+// sets var n to retern a random number
+var n = Math.random();
+
+// Multiplies a numbers 0 - 100
+n = n * 100;
+
+// Adjusted to random numbers from 1 - 100 are generated
+n = Math.floor(n) + 1;
+
+//  Return the results of the love calculation as an alert
+alert( "There is a " + n + "%" + " chance that " + name1 + " and " + name2 + " are soulmates!!");
+
+------------------------------------------------------------------
