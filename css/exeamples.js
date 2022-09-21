@@ -12,9 +12,9 @@ var count = prompt("Type your tweet below");
 alert("You have typed " + count.length + " characters" + " ,you have " + (tCount - count.length) + " characters remaining!")
 
 Slice typed characters at 140
-alert(prompt("Type your tweet below").slice(0,140));
+alert(prompt("Type your tweet below").slice(0, 140));
 
---------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Purpose: A function that prompts the user to enter their name then ensures the first letter is captilaized
 
@@ -22,10 +22,10 @@ alert(prompt("Type your tweet below").slice(0,140));
 var name = prompt("What is your name?")
 
 // 2. Var stores the first letter excluding the rest
-var fLetter = name.slice(0,1);
+var fLetter = name.slice(0, 1);
 
 // 3. Var that stores other leters excluding the first
-var oLetters = name.slice(1,name.length);
+var oLetters = name.slice(1, name.length);
 
 // 4. Var that capitalizes the first letter using toUpperCase
 var fLetter = fLetter.toUpperCase();
@@ -39,7 +39,7 @@ var name = fLetter + oLetters;
 // 7. An alert that concatenates the first and other letters and returns a welcome message
 alert("Welcome to Day One " + name + "!");
 
--------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 // A converter that converts dog age to human age
 
@@ -52,7 +52,7 @@ var humanAge = ((dogAge - 2) * 4) + 21;
 // 3. Return your dogs age in human years
 alert("Your dogs age in human years is " + humanAge + " years");
 
------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 getMilk();
 
@@ -80,30 +80,30 @@ function getMilk(cost) {
   console.log("enterHouse");
 }
 
-------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Function that takes in user age and calcultes the years remaing
 
 function lifeInWeeks(age) {
 
-/************Don't change the code above************/
+  /************Don't change the code above************/
 
-    //Prompts user to enter age.
+  //Prompts user to enter age.
 
-    var age =(prompt("Whats your age"));
+  var age = (prompt("Whats your age"));
 
-    var remainingYears = 90 - age;
-    var days = remainingYears * 365;
-    var weeks = remainingYears * 52;
-    var months = remainingYears * 12;
-    alert("You have " + days + " days, " + weeks + " weeks, and " + months + " months left.");
+  var remainingYears = 90 - age;
+  var days = remainingYears * 365;
+  var weeks = remainingYears * 52;
+  var months = remainingYears * 12;
+  alert("You have " + days + " days, " + weeks + " weeks, and " + months + " months left.");
 
-/*************Don't change the code below**********/
+  /*************Don't change the code below**********/
 }
 
 lifeInWeeks();
 
--------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 getMilk();
 
@@ -131,7 +131,7 @@ function getMilk(money) {
   console.log("enterHouse");
 }
 
--------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 //Create your function below this line.
 //The first parameter should be the weight and the second should be the height.
@@ -142,8 +142,8 @@ function getMilk(money) {
 // }
 
 function bmiCalculator(weight, height) {
-    var bmi = weight / Math.pow(height, 2);
-    return Math.round(bmi)
+  var bmi = weight / Math.pow(height, 2);
+  return Math.round(bmi)
 }
 
 /* If my weight is 65Kg and my height is 1.8m, I should be able to call your function like this:
@@ -156,7 +156,7 @@ bmi should equal 20 when it's rounded to the nearest whole number.
 
 bmiCalculator(117, 2.2);
 
-------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 //Generating random numbers
 
@@ -171,7 +171,7 @@ n = Math.floor(n) + 1;
 //  Return the values to the console
 console.log(n);
 
---------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Create a Soulmate calculator
 
@@ -191,9 +191,9 @@ n = n * 100;
 n = Math.floor(n) + 1;
 
 //  Return the results of the love calculation as an alert
-alert( "There is a " + n + "%" + " chance that " + name1 + " and " + name2 + " are soulmates!!");
+alert("There is a " + n + "%" + " chance that " + name1 + " and " + name2 + " are soulmates!!");
 
-------------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Create a love calculator
 
@@ -211,12 +211,12 @@ loveScore = Math.floor(loveScore) + 1;
 
 // Performs a calucation using an conditional if/ else statement
 if (loveScore > 70) {
-    alert( "Your love score is " + loveScore + "%." + " You love each other like Kanye loves Kanye!!");
+  alert("Your love score is " + loveScore + "%." + " You love each other like Kanye loves Kanye!!");
 } else {
-    alert( "Your love score is " + loveScore + "%.");
+  alert("Your love score is " + loveScore + "%.");
 }
 
---------------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Create a love calculator w/ comparison operators (improved)
 
@@ -234,41 +234,69 @@ loveScore = Math.floor(loveScore) + 1;
 
 // Performs a calucation using an conditional if/ else statement
 if (loveScore > 70) {
-    alert( "Your love score is " + loveScore + "%." + " You love each other like Kanye loves Kanye!!");
+  alert("Your love score is " + loveScore + "%." + " You love each other like Kanye loves Kanye!!");
 }
 
 // The && cpmparison statement used to compare LoveScore abouve 30 and loveScore less than or equal to 70
 if (loveScore > 30 && loveScore <= 70) {
-    alert( "Your love score is " + loveScore + "%." + " Your love score is Good!");
+  alert("Your love score is " + loveScore + "%." + " Your love score is Good!");
 }
 
 if (loveScore <= 30) {
-    alert( "Your love score is " + loveScore + "%." + " You go together like oil and water..");
+  alert("Your love score is " + loveScore + "%." + " You go together like oil and water..");
 }
 
------------------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
-function bmiCalculator(weight,height) {
+function bmiCalculator(weight, height) {
 
-    var bmi = Math.round(weight / Math.pow(height,2));
-    var interpretation;
+  var bmi = Math.round(weight / Math.pow(height, 2));
+  var interpretation;
 
-    if (bmi < 18.5) {
+  if (bmi < 18.5) {
     interpretation = "Your BMI is " + bmi + ", so you are underweight.";
+  }
+
+  if (bmi >= 18.5 && bmi < 24.9) {
+    interpretation = "Your BMI is " + bmi + ", so you have a normal weight.";
+  }
+
+  if (bmi >= 25) {
+    interpretation = "Your BMI is " + bmi + ", so you are overweight.";
+  }
+
+  return interpretation;
+
 }
 
-if (bmi >= 18.5 && bmi < 24.9) {
-    interpretation ="Your BMI is " + bmi + ", so you have a normal weight.";
+bmiCalculator(117, 2.2);
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+
+function isLeap(year) {
+
+  /**************Don't change the code above****************/
+
+  //Write your code here.
+
+  if (year % 4 === 0) {
+    if (year % 100 === 0) {
+      if (year % 400 === 0) {
+        return "Leap year.";
+      } else {
+        return "Not leap year.";
+      }
+    } else {
+      return "Leap year.";
+    }
+  } else {
+    return "Not leap year.";
+  }
+
+  /**************Don't change the code below****************/
+
 }
 
-if (bmi >= 25) {
-    interpretation ="Your BMI is " + bmi + ", so you are overweight.";
-}
+isLeap(1948);
 
-   return interpretation;
-
-}
-
-bmiCalculator(117,2.2);
-
--------------------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
