@@ -217,3 +217,33 @@ if (loveScore > 70) {
 }
 
 --------------------------------------------------------------------
+
+// Create a love calculator w/ comparison operators (improved)
+
+// Prompts user to enter the name of the first person
+var name1 = prompt("Enter the first name");
+
+// Prompts user to enter the name of the second perso
+var name2 = prompt("Enter the second name");
+
+// Multiplies a numbers 0 - 100
+var loveScore = Math.random() * 100;
+
+// Adjusted to random numbers from 1 - 100 are generated
+loveScore = Math.floor(loveScore) + 1;
+
+// Performs a calucation using an conditional if/ else statement
+if (loveScore > 70) {
+    alert( "Your love score is " + loveScore + "%." + " You love each other like Kanye loves Kanye!!");
+}
+
+// The && cpmparison statement used to compare LoveScore abouve 30 and loveScore less than or equal to 70
+if (loveScore > 30 && loveScore <= 70) {
+    alert( "Your love score is " + loveScore + "%." + " Your love score is Good!");
+}
+
+if (loveScore <= 30) {
+    alert( "Your love score is " + loveScore + "%." + " You go together like oil and water..");
+}
+
+-----------------------------------------------------------------------
