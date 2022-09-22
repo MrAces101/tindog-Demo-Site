@@ -341,7 +341,7 @@ function fizzBuzz() {
 // Create an else if statement that checks if count is dvisable by 3 and if true pushes Fizz to the array
     else if (count % 3 === 0) {
         output.push("Fizz");
-    } 
+    }
 
 // Create an else if statement that checks if count is dvisable by 5 and if true pushes Buzz to the array
     else if (count % 5 === 0) {
@@ -359,3 +359,22 @@ function fizzBuzz() {
 fizzBuzz();
 
 //--------------------------------------------------------------------------
+
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+
+function whosPaying(names) {
+
+/******Don't change the code above*******/
+
+    //Write your code here.
+
+    var randomNumber = Math.floor(Math.random() * names.length);
+    var randomName = names[randomNumber];
+    return randomName + " is going to buy lunch today!";
+
+/******Don't change the code below*******/
+}
+
+whosPaying(names);
+
+//-------------------------------------------------------------------------
