@@ -378,3 +378,106 @@ function whosPaying(names) {
 whosPaying(names);
 
 //-------------------------------------------------------------------------
+
+// 99 Bottles of beer on the wallvajascript challange
+
+var bottles;
+for (counter = 99; counter >= 1; counter = counter - 1)
+{
+    if (counter == 1) {
+        bottles = 'bottle';
+    } else {
+        bottles = 'bottles';
+    }
+    console.log(counter+" "+bottles+" of beer on the wall.");
+    if (counter < 99) {
+        console.log("");
+        console.log(counter+" "+bottles+" of beer on the wall.");
+    }
+    console.log(counter+" "+bottles+" of beer.");
+    console.log("Take one down.");
+    console.log("Pass it around.");
+    if (counter == 1) {
+        console.log("No bottles of beer on the wall.");
+    }
+}
+
+//------------------------------------------------------------------------
+
+// Fizz Buzzfor loop programming
+
+// 1. create output array
+
+var output = [];
+var count = 1;
+
+// 2. Create a function fizzBizz
+
+function fizzBuzz(output) {
+
+// A for loop checks if the count is les than 100
+
+    for( var count = 1; count < 101; count++) {
+
+// Set count to increment by 1 each time the fizzBuzz function is called
+
+    count++;
+
+// Create an if statement that checks if count is dvisable by both 3 and 5 if true pushes FizzBuzz to the array
+    if (count % 3 === 0 && count % 5 === 0) {
+        output.push("FizzBuzz");
+    }
+
+// Create an else if statement that checks if count is dvisable by 3 and if true pushes Fizz to the array
+    else if (count % 3 === 0) {
+        output.push("Fizz");
+    }
+
+// Create an else if statement that checks if count is dvisable by 5 and if true pushes Buzz to the array
+    else if (count % 5 === 0) {
+        output.push("Buzz");
+    }
+
+// Create an else statement that pushes all other numbers to the console
+    else {
+        output.push(count);
+    }
+}
+    console.log(output);
+}
+
+fizzBuzz(output);
+
+//-------------------------------------------------------------------------
+
+function fibonacciGenerator(n) {
+//Do NOT change any of the code above 👆
+
+    //Write your code here:
+        var output = [];
+
+        if (n === 1) {
+            output = [0];
+        }
+        else if (n === 2) {
+            output = [0, 1];
+        } else {
+            output = [0, 1];
+
+            for (var i = 2; i < n; i++) {
+                output.push(output[output.length - 2] + output[output.length - 1]);
+            }
+        }
+
+        return output;
+}
+
+output = fibonacciGenerator(20);
+
+console.log(output);
+
+//Return an array of fibonacci numbers starting from 0.
+
+//Do NOT change any of the code below 👇
+
+//-------------------------------------------------------------------------
