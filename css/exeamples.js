@@ -317,3 +317,45 @@ var guestName = prompt("Enter name to continue");
     else { alert("Sorry " + guestName + ", Your name is not in our system."); }
 
 //--------------------------------------------------------------------------
+
+// Fizz Buzz programming chalange
+
+// 1. create output array
+
+var output = [];
+var count = 0;
+
+// 2. Create a function fizzBizz
+
+function fizzBuzz() {
+
+// Set count to increment by 1 each time the fizzBuzz function is called
+
+    count++;
+
+// Create an if statement that checks if count is dvisable by both 3 and 5 if true pushes FizzBuzz to the array
+    if (count % 3 === 0 && count % 5 === 0) {
+        output.push("FizzBuzz");
+    }
+
+// Create an else if statement that checks if count is dvisable by 3 and if true pushes Fizz to the array
+    else if (count % 3 === 0) {
+        output.push("Fizz");
+    } 
+
+// Create an else if statement that checks if count is dvisable by 5 and if true pushes Buzz to the array
+    else if (count % 5 === 0) {
+        output.push("Buzz");
+    }
+
+// Create an else statement that pushes all other numbers to the console
+    else {
+        output.push(count);
+    }
+
+    console.log(output);
+}
+
+fizzBuzz();
+
+//--------------------------------------------------------------------------
