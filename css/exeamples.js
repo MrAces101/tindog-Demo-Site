@@ -14,7 +14,7 @@ alert("You have typed " + count.length + " characters" + " ,you have " + (tCount
 Slice typed characters at 140
 alert(prompt("Type your tweet below").slice(0, 140));
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Purpose: A function that prompts the user to enter their name then ensures the first letter is captilaized
 
@@ -39,7 +39,7 @@ var name = fLetter + oLetters;
 // 7. An alert that concatenates the first and other letters and returns a welcome message
 alert("Welcome to Day One " + name + "!");
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 // A converter that converts dog age to human age
 
@@ -52,7 +52,7 @@ var humanAge = ((dogAge - 2) * 4) + 21;
 // 3. Return your dogs age in human years
 alert("Your dogs age in human years is " + humanAge + " years");
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 getMilk();
 
@@ -80,7 +80,7 @@ function getMilk(cost) {
   console.log("enterHouse");
 }
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Function that takes in user age and calcultes the years remaing
 
@@ -103,7 +103,7 @@ function lifeInWeeks(age) {
 
 lifeInWeeks();
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 getMilk();
 
@@ -131,7 +131,7 @@ function getMilk(money) {
   console.log("enterHouse");
 }
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 //Create your function below this line.
 //The first parameter should be the weight and the second should be the height.
@@ -156,7 +156,7 @@ bmi should equal 20 when it's rounded to the nearest whole number.
 
 bmiCalculator(117, 2.2);
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 //Generating random numbers
 
@@ -171,7 +171,7 @@ n = Math.floor(n) + 1;
 //  Return the values to the console
 console.log(n);
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Create a Soulmate calculator
 
@@ -193,7 +193,7 @@ n = Math.floor(n) + 1;
 //  Return the results of the love calculation as an alert
 alert("There is a " + n + "%" + " chance that " + name1 + " and " + name2 + " are soulmates!!");
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Create a love calculator
 
@@ -216,7 +216,7 @@ if (loveScore > 70) {
   alert("Your love score is " + loveScore + "%.");
 }
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 // Create a love calculator w/ comparison operators (improved)
 
@@ -246,7 +246,7 @@ if (loveScore <= 30) {
   alert("Your love score is " + loveScore + "%." + " You go together like oil and water..");
 }
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 function bmiCalculator(weight, height) {
 
@@ -271,7 +271,7 @@ function bmiCalculator(weight, height) {
 
 bmiCalculator(117, 2.2);
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
 function isLeap(year) {
 
@@ -299,4 +299,4 @@ function isLeap(year) {
 
 isLeap(1948);
 
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
