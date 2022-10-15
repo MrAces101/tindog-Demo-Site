@@ -20,6 +20,12 @@ document.querySelector("li a").innerHTML = "I'm First";
 
 document.querySelector("#list a").style.color = "red";
 
+document.querySelector("a").attribute;
+
+document.querySelector("a").getAttribute("href");
+
+document.querySelector("a").setAttribute("href", "https://www.google.com");
+
 document.querySelector("li.item2").innerHTML = "I'm second";
 
 document.querySelector("#list .item3").innerHTML = "I'm Third";
