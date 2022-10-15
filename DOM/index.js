@@ -4,6 +4,12 @@ document.querySelector("h1").innerHTML = "Good Bye";
 
 document.getElementById("header").style.color = "blue";
 
+document.getElementsByClassName("btn")[0].style.color = "white";
+
+document.getElementsByClassName("btn")[0].style.backgroundColor = "blue";
+
+document.getElementByTagName("checkbox").checked = "true";
+
 document.querySelector("li a").innerHTML = "I'm First";
 
 document.querySelector("#list a").style.color = "red";
